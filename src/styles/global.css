@@ -77,7 +77,7 @@ header > h1 > a {
 }
 
 /*
-img
+main-visual
 */
 .main-picture {
   margin-top: 10px;
@@ -105,6 +105,9 @@ index
 /*
 detail
 */
+.detail h3 {
+  margin-bottom: 20px;
+}
 .detail .content {
   width: 600px;
   margin: 0 auto;
@@ -113,14 +116,21 @@ detail
 .detail .content .item {
   display: flex;
 }
+.detail .content .item hr {
+  margin: 0;
+}
+.detail .content .item ul {
+  padding: 15px 0;
+  margin: 0;
+}
+.detail .content .item p {
+  margin: 25px 0;
+}
 .detail .content .item a {
-  font-size: 0.9em;
+  font-size: 0.9rem;
 }
 .detail .content .item a:hover {
   opacity: 0.5;
-}
-.detail .content .item p {
-  border-bottom: 20px;
 }
 .detail .content img {
   height: 270px;
