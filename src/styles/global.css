@@ -1,0 +1,149 @@
+html {
+  height: 100vh;
+}
+
+body {
+  margin: 0;
+  background-color: rgb(244, 249, 254);
+  max-width: 100%;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.wrapper {
+  margin-bottom: 60px;
+}
+
+.content {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+  font-size: 0.8em;
+}
+
+h2 {
+  margin: 0 0 10px 0;
+  font-weight: 500;
+  font-size: large;
+}
+
+h3 {
+  margin: 0;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 0.9em;
+}
+
+hr {
+  border-width: 0.5px;
+}
+
+/*
+header
+*/
+header {
+  display: inline-block;
+  margin: 60px 0 0 0;
+  height: 0;
+}
+header > h1 {
+  font-size: 25px;
+  font-weight: 400;
+}
+header > h1 > a {
+  background-color: transparent;
+  display: block;
+  font-size: 200;
+}
+
+/*
+img
+*/
+.main-picture {
+  margin-top: 10px;
+}
+
+/*
+index
+*/
+.index {
+  background-color: white;
+}
+.index ol {
+  width: 600px;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+}
+.index ol li {
+  margin-bottom: 20px;
+}
+.index ol li:last-child {
+  margin-bottom: 0;
+}
+
+/*
+detail
+*/
+.detail .content {
+  width: 600px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+.detail .content .item {
+  display: flex;
+}
+.detail .content .item a {
+  font-size: 0.9em;
+}
+.detail .content .item a:hover {
+  opacity: 0.5;
+}
+.detail .content .item p {
+  border-bottom: 20px;
+}
+.detail .content img {
+  height: 270px;
+  width: 270px;
+}
+.detail .content .text {
+  width: 270px;
+  padding-left: 60px;
+}
+.detail .content .text .li {
+  font-size: 0.9em;
+}
+
+/*
+footer
+*/
+footer {
+  padding: 15px 0;
+}
+footer > p {
+  margin: 0 auto;
+  padding: 0 40px;
+  max-width: 600px;
+  font-size: 10px;
+  font-weight: 300;
+}/*# sourceMappingURL=global.css.map */
