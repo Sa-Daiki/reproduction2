@@ -1,0 +1,74 @@
+---
+import "../styles/global.css";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Welcome to Astro.">
+  <body>
+    <div class="container">
+      <header>
+        <h1 class="content-title">
+          <a>PHOTO BOOK</a>
+        </h1>
+      </header>
+
+      <main>
+        <div class="mainvisual">
+          <img src="/public/mainvisual.jpg" />
+        </div>
+
+        <section class="index">
+          <div class="inner">
+            <h2 class="section-title">INDEX</h2>
+            <ol class='index-list'>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+              <li>
+                タイトルタイトルタイトルタイトルタイトルタイトルタイトルタイトル
+              </li>
+            </ol>
+          </div>
+        </section>
+
+        <section class="detail">
+          <div class="inner">
+            <h2 class="section-title">DETAIL</h2>
+            <div class="content">
+              <img class="img" src="/public/detail.jpg" alt="" />
+              <div class="text">
+                <p class="title">タイトルタイトル</p>
+                <dl>
+                  <dt>著者</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+                  <dt>出版社</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+                  <dt>発行年</dt>
+                  <dd>タイトルタイトルタイトル</dd>
+                </dl>
+                <p>
+                  テキストテキストテキストテキストテキストテキスト
+                  テキストテキストテキストテキストテキストテキスト
+                </p>
+                <a class="link" href="">オンラインストアで見る</a>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="footer">
+        <p class="inner">&copy; 2020 PHOTO BOOK</p>
+      </footer>
+    </div>
+  </body>
+</Layout>
